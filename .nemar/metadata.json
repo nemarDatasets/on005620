@@ -57,8 +57,8 @@
     ".vmrk",
     ".yml"
   ],
-  "description": "This dataset contains electroencephalography (EEG) recordings from a repeated awakening study investigating the effects of propofol sedation on dreaming and the applicability of complexity measures in capturing consciousness dynamics. The study examines EEG complexity measures as potential biomarkers for subjective experiences during pharmacological sedation, with recordings obtained during wakefulness, sedation, and repeated awakenings. Data were collected from multiple subjects across multiple sessions and organized according to BIDS standards.",
-  "methods_description": "EEG data were collected during multiple conditions including eyes-closed and eyes-open wakefulness, propofol sedation with resting recordings, and transcranial magnetic stimulation sessions. Data were recorded using BrainVision equipment and organized according to BIDS standards with multiple runs capturing different awakening episodes during sedation.",
+  "description": "This dataset contains electroencephalography (EEG) recordings from a repeated awakening study investigating the effects of propofol sedation on dreaming and the utility of complexity measures in capturing consciousness dynamics. Participants underwent multiple sedation-awakening cycles with EEG recordings during wakefulness (eyes open and closed), sedation, and transcranial magnetic stimulation sessions. The study aims to elucidate the relationship between EEG complexity measures and subjective dream experiences during pharmacological sedation.",
+  "methods_description": "EEG data were collected from multiple participants during repeated sedation-awakening cycles. Data collection included multiple task conditions: wakefulness (eyes open and closed), propofol sedation, and transcranial magnetic stimulation sessions. Multiple awakenings were performed during sedation (runs 1-3). EEG signals were recorded using BrainVision equipment with 64 channels and stored in standardized BIDS format with accompanying channel information and event markers.",
   "keywords": [
     {
       "term": "EEG"
@@ -76,31 +76,19 @@
       "term": "complexity measures"
     },
     {
-      "term": "anesthesia"
-    },
-    {
-      "term": "Lempel-Ziv complexity"
-    },
-    {
-      "term": "spectral entropy"
-    },
-    {
       "term": "transcranial magnetic stimulation"
+    },
+    {
+      "term": "anesthesia"
     },
     {
       "term": "BrainVision"
     },
     {
-      "term": "BIDS"
+      "term": "repeated awakening"
     },
     {
-      "term": "sedation"
-    },
-    {
-      "term": "biomarkers"
-    },
-    {
-      "term": "wakefulness"
+      "term": "sedation-awakening cycles"
     }
   ],
   "funding_references": [
