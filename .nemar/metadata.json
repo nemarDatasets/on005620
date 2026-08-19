@@ -1,7 +1,9 @@
 {
   "version": "2.0",
-  "pipeline_stage": "enriched",
+  "pipeline_stage": "validated",
   "title": "A repeated awakening study exploring the capacity of complexity measures to capture dreaming during propofol sedation",
+  "description": "This dataset comprises repeated-awakening EEG recordings collected during propofol sedation, designed to explore dream experiences and consciousness dynamics under anesthesia. EEG data were acquired across wakefulness (eyes open/closed) and multiple sedation and awakening conditions, including sessions with transcranial magnetic stimulation. The study aims to evaluate whether EEG complexity measures can capture subjective dream reports elicited through repeated awakenings during propofol-induced sedation.",
+  "methods_description": "EEG data were recorded using BrainVision hardware across conditions including wakefulness (eyes open/closed), sedation rest periods, and repeated awakenings during propofol sedation, with some sessions incorporating transcranial magnetic stimulation (TMS). Data files include raw EEG signals, header and marker files, and event/channel metadata organized per subject following BIDS conventions.",
   "license": "CC0",
   "dataset_type": "raw",
   "authors": {
@@ -13,6 +15,35 @@
     "Johan F. Storm1": {},
     "Bjørn E. Juel1,2": {}
   },
+  "keywords": [
+    {
+      "term": "EEG"
+    },
+    {
+      "term": "Propofol",
+      "subject_scheme": "MeSH",
+      "value_uri": "http://id.nlm.nih.gov/mesh/D015742"
+    },
+    {
+      "term": "Consciousness",
+      "subject_scheme": "MeSH",
+      "value_uri": "http://id.nlm.nih.gov/mesh/D003243"
+    },
+    {
+      "term": "Dreaming"
+    },
+    {
+      "term": "Sedation"
+    },
+    {
+      "term": "Complexity measures"
+    },
+    {
+      "term": "Transcranial Magnetic Stimulation",
+      "subject_scheme": "MeSH",
+      "value_uri": "http://id.nlm.nih.gov/mesh/D050781"
+    }
+  ],
   "related_identifiers": [
     {
       "identifier": "10.18112/openneuro.ds005620.v1.0.0",
@@ -40,11 +71,17 @@
       "relation_type": "References"
     }
   ],
+  "funding_references": [
+    {
+      "funder_name": "Regional Committees for Medical Research Ethics South East Norway (REK)",
+      "award_number": "2015/1520"
+    }
+  ],
   "resource_type_general": "Dataset",
+  "resource_type_specific": "EEG Dataset",
   "modalities": [
     "eeg"
   ],
-  "resource_type_specific": "EEG Dataset",
   "sizes": [
     "83.0 GB (607 files)"
   ],
@@ -56,46 +93,6 @@
     ".vhdr",
     ".vmrk",
     ".yml"
-  ],
-  "description": "This dataset contains electroencephalography (EEG) recordings from a repeated awakening study investigating the effects of propofol sedation on dreaming and the utility of complexity measures in capturing consciousness dynamics. Participants underwent multiple sedation-awakening cycles with EEG recordings during wakefulness (eyes open and closed), sedation, and transcranial magnetic stimulation sessions. The study aims to elucidate the relationship between EEG complexity measures and subjective dream experiences during pharmacological sedation.",
-  "methods_description": "EEG data were collected from multiple participants during repeated sedation-awakening cycles. Data collection included multiple task conditions: wakefulness (eyes open and closed), propofol sedation, and transcranial magnetic stimulation sessions. Multiple awakenings were performed during sedation (runs 1-3). EEG signals were recorded using BrainVision equipment with 64 channels and stored in standardized BIDS format with accompanying channel information and event markers.",
-  "keywords": [
-    {
-      "term": "EEG"
-    },
-    {
-      "term": "propofol sedation"
-    },
-    {
-      "term": "consciousness"
-    },
-    {
-      "term": "dreaming"
-    },
-    {
-      "term": "complexity measures"
-    },
-    {
-      "term": "transcranial magnetic stimulation"
-    },
-    {
-      "term": "anesthesia"
-    },
-    {
-      "term": "BrainVision"
-    },
-    {
-      "term": "repeated awakening"
-    },
-    {
-      "term": "sedation-awakening cycles"
-    }
-  ],
-  "funding_references": [
-    {
-      "funder_name": "Regional Committees for Medical Research Ethics South East Norway (REK)",
-      "award_number": "2015/1520"
-    }
   ],
   "source_hash": "91c1709c59bc6f78fb94c64aef15f7d8bfc809d3df10307bed89e232eeac4612"
 }
