@@ -2,8 +2,8 @@
   "version": "2.0",
   "pipeline_stage": "validated",
   "title": "A repeated awakening study exploring the capacity of complexity measures to capture dreaming during propofol sedation",
-  "description": "This dataset comprises repeated-awakening EEG recordings collected during propofol sedation, designed to explore dream experiences and consciousness dynamics under anesthesia. EEG data were acquired across wakefulness (eyes open/closed) and multiple sedation and awakening conditions, including sessions with transcranial magnetic stimulation. The study aims to evaluate whether EEG complexity measures can capture subjective dream reports elicited through repeated awakenings during propofol-induced sedation.",
-  "methods_description": "EEG data were recorded using BrainVision hardware across conditions including wakefulness (eyes open/closed), sedation rest periods, and repeated awakenings during propofol sedation, with some sessions incorporating transcranial magnetic stimulation (TMS). Data files include raw EEG signals, header and marker files, and event/channel metadata organized per subject following BIDS conventions.",
+  "description": "This dataset contains EEG recordings from a repeated awakening study of propofol sedation. It examines whether EEG complexity measures can capture dreaming and subjective experience during sedation. Recordings cover wakeful eyes-open and eyes-closed rest, sedation rest, and one-minute resting periods preceding each awakening, with some sessions including transcranial magnetic stimulation.",
+  "methods_description": "EEG was recorded in BrainVision format during wakefulness (eyes closed, eyes open, and TMS sessions) and during propofol sedation. Sedation sessions included repeated awakenings (runs 1-3), each preceded by a one-minute resting EEG segment.",
   "license": "CC0",
   "dataset_type": "raw",
   "authors": {
@@ -25,23 +25,21 @@
       "value_uri": "http://id.nlm.nih.gov/mesh/D015742"
     },
     {
+      "term": "dreaming"
+    },
+    {
       "term": "Consciousness",
       "subject_scheme": "MeSH",
       "value_uri": "http://id.nlm.nih.gov/mesh/D003243"
     },
     {
-      "term": "Dreaming"
+      "term": "sedation"
     },
     {
-      "term": "Sedation"
+      "term": "EEG complexity"
     },
     {
-      "term": "Complexity measures"
-    },
-    {
-      "term": "Transcranial Magnetic Stimulation",
-      "subject_scheme": "MeSH",
-      "value_uri": "http://id.nlm.nih.gov/mesh/D050781"
+      "term": "transcranial magnetic stimulation"
     }
   ],
   "related_identifiers": [
@@ -83,7 +81,7 @@
     "eeg"
   ],
   "sizes": [
-    "83.0 GB (607 files)"
+    "77.30 GB (607 files)"
   ],
   "formats": [
     ".eeg",
